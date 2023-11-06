@@ -1,0 +1,72 @@
+.nav{
+    display: flex;
+    align-items: center;
+    border-bottom:1px solid rgba(0,0,0,.2);
+    padding: 6px;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    width: 14% !important;
+    justify-content: start;
+}
+.logo span{
+    padding-left: 4px;
+    color: #5f6368;
+    opacity: 1;
+    font-family: "Product Sans",Arial,sans-serif;
+    font-size: 22px;
+    line-height: 24px;
+}
+.logoImg{
+   width: 45px !important;
+}
+.profile{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.profile span{
+    padding: 6px;
+    font-size: 18px;
+}
+.searchBar{
+    display: flex;
+    align-items: center;
+    background: #1976d2;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    padding: 10px;
+}
+.search{
+    width: 60%;
+    cursor: pointer;
+}
+.profile img{
+    width: 55px;
+}
+.searchInput:focus{
+   outline: none;
+}
+.textarea{
+    width: 100%;
+}
+.textarea:focus{
+    outline: none;
+}
+.modalInpt{
+    width: 100%;
+    font-size: 20px;
+    margin: 0 !important;
+}
+.modalInpt:focus{
+    outline: none;
+    font-size: 16px;
+}
+.selectBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

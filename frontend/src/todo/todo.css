@@ -1,0 +1,28 @@
+.singleTodo{
+    background-color: #fff;
+    border-color: #e0e0e0;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+}
+.main{
+    padding: 10px;
+}
+.title h3{
+    border-bottom: 1px solid rgba(0,0,0,.2);
+    padding: 5px;
+}
+.description{
+    padding: 5px;
+}
+.status span{
+    padding: 6px;
+    color: black;
+    font-size: 16px;
+
+}
+.status{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
